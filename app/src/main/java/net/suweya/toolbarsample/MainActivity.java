@@ -11,6 +11,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import net.suweya.toolbarsample.fragment.ItemFragment;
 import net.suweya.toolbarsample.widget.SlidingTabLayout;
 
 
@@ -82,6 +83,9 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public Fragment getItem(int position) {
+            if(position == 0) {
+                return ItemFragment.newInstance();
+            }
             return SimpleFragment.newInstance("Params1", "Params2");
         }
 

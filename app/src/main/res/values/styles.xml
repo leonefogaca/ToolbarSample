@@ -5,7 +5,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">#3f51b5</item>
         <item name="colorPrimaryDark">#3f51b5</item>
-        <item name="android:colorAccent">#e91e63</item>
+        <item name="colorAccent">#e91e63</item>
     </style>
 
     <style name="ActionBarThemeOverlay" parent="">
@@ -27,6 +27,10 @@
     <style name="ActionBar.SubTitleText" parent="TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
         <item name="android:textColor">#fff</item>
         <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="TabIndicator">
+        <item name="android:theme">@style/ActionBarThemeOverlay</item>
     </style>
 
 </resources>

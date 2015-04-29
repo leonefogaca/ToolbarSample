@@ -5,7 +5,7 @@ android {
     buildToolsVersion "22.0.1"
 
     defaultConfig {
-        applicationId "suweya.net.toolbarsample"
+        applicationId "net.suweya.toolbarsample"
         minSdkVersion 15
         targetSdkVersion 22
         versionCode 1

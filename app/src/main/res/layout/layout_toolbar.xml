@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:theme="@style/ActionBarThemeOverlay"
+    app:popupTheme="@style/ActionBarPopupThemeOverlay"
+    android:id="@+id/toolbar_actionbar"
+    android:background="?colorPrimary"
+    app:titleTextAppearance="@style/ActionBar.TitleText"
+    app:contentInsetStart="56dp"
+    app:subtitle="SubTitle"
+    app:subtitleTextAppearance="@style/ActionBar.SubTitleText"
+    app:navigationIcon="@drawable/abc_ic_menu_copy_mtrl_am_alpha"
+    android:layout_width="match_parent"
+    android:layout_height="?actionBarSize" />

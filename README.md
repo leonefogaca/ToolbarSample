@@ -62,3 +62,19 @@ Toolbar SubtitleTextAppearance
 	        <item name="android:textColor">#fff</item>
 	        <item name="android:textSize">12sp</item>
 	    </style>
+
+
+##MultiSwipeRefreshLayout
+
+Implement CanChildScrollUpCallback to decided canSwipeRefreshChildScrollUp
+
+	
+	public static interface CanChildScrollUpCallback {
+	        public boolean canSwipeRefreshChildScrollUp();
+	    }
+
+
+----------
+
+
+<img src="../master/screenshots/swiperefreshlayout.png"/>

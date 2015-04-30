@@ -97,7 +97,7 @@ public class ItemFragment extends ListFragment {
 
             List<DummyContent.DummyItem> items = new ArrayList<>(10);
             for (int i = 0; i < 10; i++) {
-                items.add(new DummyContent.DummyItem("ID " + i, "Content " + i));
+                items.add(new DummyContent.DummyItem(String.valueOf(i), "Item " + i));
             }
             try {
                 Thread.sleep(3000);
